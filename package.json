@@ -1,0 +1,25 @@
+{
+    "name": "react-photo-viewer",
+    "version": "1.0.0",
+    "description": "react图片查看器",
+    "repository": "https://github.com/jinxin479/react-map",
+    "main": "./dist/index.js",
+    "author": "苦瓜和尚",
+    "license": "MIT",
+    "scripts": {
+        "compile": "rm -fr ./dist && babel --copy-files ./src --out-dir ./dist",
+        "prepublish": "npm run compile"
+    },
+    "dependencies": {
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4",
+        "transform-runtime": "0.0.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1"
+    }
+}
